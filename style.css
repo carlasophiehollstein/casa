@@ -424,13 +424,16 @@ button.buttondaten:hover {
 /* -----------------Footer------------------ */
 
 DIV#footer {
-
+	position: fixed;
+	left: 0;
+	right: 0;
+	bottom: 0;
 	min-height: 3rem;
 	background-color: #052758;
 }
 
 DIV.footercontainer {
-
+	position: absolute;
 	top: 1rem;
 	left: 10%;
 	right: 10%;
