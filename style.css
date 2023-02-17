@@ -20,10 +20,6 @@ BODY {
 	bottom: 0;
 }
 
-H1 { 
-	
-}
-
 A { 
 	text-decoration: none;
 	
@@ -47,9 +43,6 @@ DIV#header {
 	padding: 0rem;
 	background: #052758;
 	color: white;
-	box-shadow: px;
-	z-index: 3;
-
 }
 
 HEADER {
@@ -70,7 +63,6 @@ HEADER NAV.left {
 
 HEADER NAV.right {
 	float: right;
-
 }
 
 HEADER NAV A {
@@ -123,7 +115,7 @@ DIV#banner.home {
 }
 
 DIV#banner.raeume {
-	background-image: url("bilder/raum_2.JPG");
+	background-image: url("bilder/tuer.JPG");
 }
 
 
@@ -148,7 +140,7 @@ DIV#banner.vorort {
 }
 
 DIV#banner.anfahrt {
-	background-image: url("bilder/zugg.PNG");
+	background-image: url("bilder/zug.JPG");
 }
 
 DIV#banner.anfahrt H1 {
@@ -181,31 +173,67 @@ DIV.contentnormal{
 }
 
 DIV.contentcontainer{
-	padding-top: 10%;
+	padding-top: 12%;
 	overflow: auto;
 	display: flex;
 }
 
-DIV.contentcontainer:hover {
-	
-}
-
 DiV.contentcontainer DIV.left {
 	padding-right: 50px;
-	
 }
 
 DiV.contentcontainer DIV.right {
 	flex: 2;
 }
 
-.anschauen {
-	font-size: 1.1rem;
+/* -----------------Räume------------------ */
+
+img.raum {
+  max-width: 100%;
+  vertical-align: top;
 }
 
-.anschauen:hover {
-	font-style: italic;
+.galerie {
+  display: flex;
+  width: 100%;
+  padding-top: 4%;
+  box-sizing: border-box;
+  height: 80vh;
 }
+
+.box {
+  flex: 1;
+  overflow: hidden;
+  transition: .5s;
+  margin: 0 2%;
+  box-shadow: 0 20px 30px rgba(0,0,0,.1);
+  line-height: 0;
+}
+
+.box img {
+  width: 200%;
+  height: calc(100% - 10vh);
+  object-fit: cover; 
+  transition: .5s;
+}
+
+.box span {
+  font-size: 2vh;
+  display: block;
+  text-align: center;
+  height: 5vh;
+  line-height: 4.5;
+}
+
+.box:hover { 
+	flex: 1 1 50%; 
+}
+
+.box:hover img {
+  width: 100%;
+  height: 100%;
+}
+
 
 /* -----------------Kalender------------------ */
 
@@ -219,7 +247,6 @@ BUTTON.buttonkalener {
   border-radius: 4px;
   cursor: pointer;
   padding: 10px;
-
 }
 
 BUTTON.buttonkalener:hover {
@@ -355,18 +382,6 @@ button {
 button:hover {
   background: #ed6a5e;
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
-}
-
-/* -----------------Über uns------------------ */
-
-DIV.wirbilder{
-	padding-top: 40px;
-	display: flex;
-	flex-direction: row;
-	justify-content: flex-end;
-	align-self: space-between;
-	padding: 5px;
-
 }
 
 /* -----------------Kontakt------------------ */
