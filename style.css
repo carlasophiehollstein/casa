@@ -139,6 +139,10 @@ DIV#banner.vorort {
 	background-image: url("bilder/ort.jpg");
 }
 
+DIV#banner.vorort H1 {
+	color: white;
+}
+
 DIV#banner.anfahrt {
 	background-image: url("bilder/zug.jpg");
 }
@@ -184,6 +188,14 @@ DiV.contentcontainer DIV.left {
 
 DiV.contentcontainer DIV.right {
 	flex: 2;
+}
+
+DiV.contentcontainer DIV.left IMG{
+	padding-top: 40px;
+}
+
+DiV.contentcontainer DIV.right IMG {
+	padding-top: 40px;
 }
 
 /* -----------------Räume------------------ */
@@ -320,7 +332,6 @@ TABLE.kalender TR TD A {
 }
 
 .open:hover {
-	
 	background: #052758;
 }
 
@@ -413,16 +424,13 @@ button.buttondaten:hover {
 /* -----------------Footer------------------ */
 
 DIV#footer {
-	position: fixed;
-	left: 0;
-	right: 0;
-	bottom: 0;
+
 	min-height: 3rem;
 	background-color: #052758;
 }
 
 DIV.footercontainer {
-	position: absolute;
+
 	top: 1rem;
 	left: 10%;
 	right: 10%;
