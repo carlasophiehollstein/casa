@@ -115,7 +115,7 @@ DIV#banner.home {
 }
 
 DIV#banner.raeume {
-	background-image: url("bilder/tuer.JPG");
+	background-image: url("bilder/tuer.jpg");
 }
 
 
@@ -124,7 +124,7 @@ DIV#banner.kalenderba {
 }
 
 DIV#banner.buchen {
-	background-image: url("bilder/fruehstueck.JPG");
+	background-image: url("bilder/fruehstueck.jpg");
 }
 
 DIV#banner.buchen H1 {
@@ -132,15 +132,15 @@ DIV#banner.buchen H1 {
 }
 
 DIV#banner.ueberuns {
-	background-image: url("bilder/wir.JPG");
+	background-image: url("bilder/wir.jpg");
 }
 
 DIV#banner.vorort {
-	background-image: url("bilder/ort.JPG");
+	background-image: url("bilder/ort.jpg");
 }
 
 DIV#banner.anfahrt {
-	background-image: url("bilder/zug.JPG");
+	background-image: url("bilder/zug.jpg");
 }
 
 DIV#banner.anfahrt H1 {
@@ -148,7 +148,7 @@ DIV#banner.anfahrt H1 {
 }
 
 DIV#banner.impressum {
-	background-image: url("bilder/impressum.JPG");
+	background-image: url("bilder/impressum.jpg");
 }
 
 /* -----------------Content------------------ */
